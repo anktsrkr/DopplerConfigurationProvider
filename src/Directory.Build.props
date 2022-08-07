@@ -1,0 +1,31 @@
+<Project>
+
+  <PropertyGroup>
+  	<Description>Doppler configuration provider implementation for Microsoft.Extensions.Configuration.</Description>
+    <Authors>Ankit Sarkar</Authors>
+    <PackageTags>doppler;keyvault</PackageTags>
+    <PackageProjectUrl>https://github.com/anktsrkr/DopplerConfigurationProvider</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/anktsrkr/DopplerConfigurationProvider</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>1.0.0</Version>
+
+
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <DebugSymbols>true</DebugSymbols>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <IsPackable>true</IsPackable>
+
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors>true</WarningsAsErrors>
+
+    <CLSCompliant>true</CLSCompliant>
+    <ComVisible>false</ComVisible>
+
+    <LangVersion>latest</LangVersion>
+
+  </PropertyGroup>
+
+ 
+</Project>
