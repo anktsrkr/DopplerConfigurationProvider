@@ -2,9 +2,9 @@ name: Build & Publish
 
 on:
   push:
-    branches: [ "ci", "develop" ]
+    branches: ["develop" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master" ,"ci"]
 
 env:
   PROJECT_PATH: 'src/Doppler.Extensions.Configuration/Doppler.Extensions.Configuration.csproj'
