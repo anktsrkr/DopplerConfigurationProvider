@@ -25,7 +25,7 @@ jobs:
       run: dotnet build ${{env.PROJECT_PATH}} --no-restore --configuration Release  
       
     - name: Publish Doppler.Extensions.Configuration
-      uses: brandedoutcast/publish-nuget@v2.5.2
+      uses: alirezanet/publish-nuget@v3.0.0
       with:
           PROJECT_FILE_PATH: ${{env.PROJECT_PATH}}
           VERSION_FILE_PATH: src/Directory.Build.props
