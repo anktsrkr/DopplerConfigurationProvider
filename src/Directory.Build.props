@@ -3,13 +3,11 @@
   <PropertyGroup>
   	<Description>Doppler configuration provider implementation for Microsoft.Extensions.Configuration.</Description>
     <Authors>Ankit Sarkar</Authors>
-    <PackageTags>doppler;keyvault</PackageTags>
+    <PackageTags>doppler;secrets;keyvault;devsecops</PackageTags>
     <PackageProjectUrl>https://github.com/anktsrkr/DopplerConfigurationProvider</PackageProjectUrl>
     <RepositoryUrl>https://github.com/anktsrkr/DopplerConfigurationProvider</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.0</Version>
-
-
+    <Version>1.0.1</Version>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <DebugSymbols>true</DebugSymbols>
@@ -24,8 +22,11 @@
     <ComVisible>false</ComVisible>
 
     <LangVersion>latest</LangVersion>
-
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
- 
+     <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
 </Project>
